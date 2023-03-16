@@ -15,6 +15,22 @@ body {
     background-size: auto;
     flex: 1 1 auto;
     width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50%;
+}
+.logo {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+}
+.logo-txt {
+    font-size: 4rem;
+    color: white;
+}
+.logo-img {
+    height: 4rem;
 }
 .container {
     flex: 2 0.5 auto;
