@@ -11,10 +11,12 @@ body {
     display: flex;
 }
 .overlay {
-    background: url(halie-west-25xggax4bSA-unsplash.jpg) no-repeat center center fixed;
-    background-size: auto;
+    background: url(halie-west-25xggax4bSA-unsplash.jpg);
+    /* zoom image out to show whole image */
+    background-size: cover;
     flex: 1 1 auto;
-    width: 35vw;
+    width: 45vw;
+    min-width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -22,6 +24,8 @@ body {
     gap: 50%;
 }
 .logo {
+    display: flex;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 8px;
 }
