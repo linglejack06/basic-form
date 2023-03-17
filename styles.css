@@ -78,8 +78,8 @@ br {
 button {
     margin-left: 48px;
     margin-top: 24px;
-    width: 150px;
-    height: 35px;
+    width: 15vw;
+    height: 3.5vh;
     background-color: #596d48;
     border-radius: 8px;
     color: white;
@@ -91,4 +91,9 @@ button {
 .log-in>a {
     color: #596d48;
     font-weight: bold;
+}
+input {
+    border: var(--border-color);
+    background-color: whitesmoke;
+    width: 15vw;
 }
