@@ -43,6 +43,17 @@ body {
 .credit>p {
     color: whitesmoke;
 }
+.hero {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 48px;
+}
+label {
+    font-size: 0.9rem;
+}
+br {
+    height: 2rem;
+}
 .container {
     flex: 1 1 auto;
     width: 55vw;
@@ -63,4 +74,21 @@ body {
 .input-and-label {
     display: flex;
     flex-direction: column;
+}
+button {
+    margin-left: 48px;
+    margin-top: 24px;
+    width: 150px;
+    height: 35px;
+    background-color: #596d48;
+    border-radius: 8px;
+    color: white;
+}
+.log-in {
+    margin-left: 48px;
+    margin-top: 18px;
+}
+.log-in>a {
+    color: #596d48;
+    font-weight: bold;
 }
