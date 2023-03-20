@@ -50,6 +50,7 @@ body {
 }
 label {
     font-size: 0.9rem;
+    color: rgb(152, 152, 152)
 }
 br {
     height: 2rem;
@@ -70,6 +71,7 @@ br {
     display: flex;
     gap: 10%;
     margin-bottom: 12px;
+    align-items: flex-end;
 }
 .input-and-label {
     display: flex;
@@ -78,8 +80,8 @@ br {
 button {
     margin-left: 48px;
     margin-top: 24px;
-    width: 15vw;
-    height: 3.5vh;
+    width: 8rem;
+    height: 3rem;
     background-color: #596d48;
     border-radius: 8px;
     color: white;
@@ -96,4 +98,14 @@ input {
     border: var(--border-color);
     background-color: whitesmoke;
     width: 15vw;
+    padding: 4px;
+    border-radius: 4px;
+}
+.error {
+    border: 3px solid red;
+    border-radius: 4px;
+}
+.confirm {
+    border: 3px solid rgb(51, 255, 0);
+    border-radius: 4px;
 }
